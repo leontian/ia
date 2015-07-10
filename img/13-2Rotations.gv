@@ -1,0 +1,7 @@
+digraph {
+    size = "3, 3";
+    y -> x;
+    y -> \gamma;
+    x -> \alpha;
+    x -> \beta;
+}
