@@ -1,0 +1,18 @@
+// Created by rbtree.write_dot()
+digraph red_black_tree {
+  N4 [label="4", color="black"];
+  N2 [label="2", color="red"];
+  N1 [label="1", color="black"];
+  N2 -> N1 ;
+  N3 [label="3", color="black"];
+  N2 -> N3 ;
+  N4 -> N2 ;
+  N6 [label="6", color="red"];
+  N5 [label="5", color="black"];
+  N6 -> N5 ;
+  N7 [label="7", color="black"];
+  N8 [label="8", color="red"];
+  N7 -> N8 ;
+  N6 -> N7 ;
+  N4 -> N6 ;
+}
